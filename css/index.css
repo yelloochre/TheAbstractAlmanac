@@ -1,0 +1,227 @@
+@font-face{
+    font-family:Perpetua;
+    src: url(fonts/unicode-perpetua.ttf);
+}
+@font-face{
+    font-family:UnderwoodChamp;
+    src: url(fonts/uwch.ttf);
+}
+
+*{
+margin: 0%;
+padding: 0%;
+}
+
+body{
+    background-color:rgb(109, 29, 39)
+}
+
+
+
+text{
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:link{
+    color: rgb(230, 173, 18)
+}
+
+a:hover{
+    color: rgb(245, 235, 149);
+    filter: brightness(120%) saturate(125%) contrast(150%) hue-rotate(-25deg);
+}
+
+a:visited{
+    color: rgb(230, 173, 18)
+}
+
+#nbar{
+    width: 100%;
+    height: 225px;
+    position: relative;
+    top: 20px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+
+.navt{
+    color:rgb(236, 183, 9);
+    font-family: UnderwoodChamp, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 230%;
+    background-image: url(../images/nav_button.png);
+    padding: 19px;
+    margin: 25px;
+    position: relative;
+    left: 350px;
+    top: 203px;
+    z-index: 999;
+}
+
+#nt1, #nt3, #nt5{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#nt4{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#nav{
+    position: relative;
+    left: -325px;
+    bottom: 300px;
+}
+
+/* Navigation */
+#n1, #n2, #n3, #n4, #n5{
+    height: 16%;
+    width: 16%;
+    position: relative;
+    top: 105px;
+    left: 33px;
+    z-index: 99;
+    margin-left: 30px;
+} 
+
+/* Stuff pertaining to the Logo top section thingy:
+
+Logo Background */
+#logo{
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+    background-image: url("../images/logo_bg.png");
+    background-clip: border-box;
+}
+
+/* 
+Logo Box w/ Shadow */
+#logo div{
+    width: 75%;
+    height: 70%;
+    background-size: contain;
+    background-image: url("../images/logo1.png");
+    background-clip: border-box;
+    position: relative;
+    left: 170px;
+    top: 65px;
+
+}
+/* 
+Logo Text */
+#logo3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0px;
+    bottom: 6px;
+}
+
+/* "Comprehensive" */
+#l_st{
+    color: rgb(78, 40, 22);
+    font-family: UnderwoodChamp, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 65px;
+}
+
+/* Main buttons */
+.mainb{
+    position: relative;
+    left: 340px;
+    /* bottom: 600px; */
+    padding: 2%;
+    opacity: 80%;
+    filter: contrast(110%) hue-rotate(-20deg);
+    z-index: 99;
+}
+
+#forest{
+    background-size: cover;
+    background-image: url(../images/aa_forest.png);
+    background-clip: border-box;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+
+}
+
+/* Main buttons */
+#b1, #b2, #b3, #b4{
+    height: 20%;
+    width: 20%;
+}
+
+#m2, #m3{
+    height: 100%;
+    width: 100%;
+}
+
+#bt1, #bt2, #bt3, #bt4{
+    color:rgb(236, 208, 47);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    text-align: center;
+    bottom: 333px;
+    font-size: 40px;
+    z-index: 999;
+}
+
+    #bt1{
+        right: 170px;
+        bottom: 400px;
+    }
+    #bt2{
+        left: 160px;
+        bottom: 450px;
+    }
+    #bt3{
+        right: 170px;
+        bottom: 202px;
+    }
+    #bt4{
+        left: 160px;
+        bottom: 255px;
+    }
+
+
+footer{
+    background-image: url(../images/footer1.png);
+    text-decoration: rgb(228, 148, 28);
+    width: 100%;
+    padding-top: 300px;
+    text-align: center;
+    line-height: 200%;
+}
+
+
+h2, h1, p{
+    color:rgb(250, 212, 0);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+
+}
+
+input{
+    background-color: rgb(80, 10, 25);
+    color: rgb(240, 180, 28);
+    border-color: rgb(235, 21, 64);
+    text-decoration: rgb(240, 180, 28);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90%;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+#nik{
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    font-size: 110%;
+}
