@@ -1,0 +1,223 @@
+@font-face{
+    font-family:Perpetua;
+    src: url(fonts/unicode-perpetua.ttf);
+}
+@font-face{
+    font-family:UnderwoodChamp;
+    src: url(fonts/uwch.ttf);
+}
+
+*{
+margin: 0%;
+padding: 0%;
+}
+#logo{
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+    background-image: url("../images/logo_bg.png");
+    background-clip: border-box;
+}
+body{
+    background-color:rgb(109, 29, 39);
+    overflow-x: hidden;
+}
+
+
+
+text{
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:link{
+    color: rgb(230, 173, 18)
+}
+
+a:hover{
+    color: rgb(245, 235, 149);
+    filter: brightness(120%) saturate(125%) contrast(150%) hue-rotate(-25deg);
+}
+
+a:visited{
+    color: rgb(230, 173, 18)
+}
+
+#nbar{
+    width: 100%;
+    height: 225px;
+    position: relative;
+    top: 20px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+
+.navt{
+    color:rgb(236, 183, 9);
+    font-family: UnderwoodChamp, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 230%;
+    background-image: url(../images/nav_button.png);
+    padding: 19px;
+    margin: 25px;
+    position: relative;
+    left: 350px;
+    top: 203px;
+    z-index: 999;
+}
+
+#nt1, #nt3, #nt5{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#nt4{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#nav{
+    position: relative;
+    left: -325px;
+    bottom: 300px;
+}
+
+/* Navigation */
+#n1, #n2, #n3, #n4, #n5{
+    height: 16%;
+    width: 16%;
+    position: relative;
+    top: 105px;
+    left: 33px;
+    z-index: 99;
+    margin-left: 30px;
+}
+/* 
+Logo Box w/ Shadow */
+#logo div{
+    width: 75%;
+    height: 70%;
+    background-size: contain;
+    background-image: url("../images/logo1.png");
+    background-clip: border-box;
+    position: relative;
+    left: 170px;
+    top: 65px;
+
+}
+/* 
+Logo Text */
+#logo3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0px;
+    bottom: 6px;
+}
+
+.qb{
+    height: 20%;
+    width: 20%;
+    margin: 20px;
+    align-items: center;
+}
+
+.qutext{
+    color: rgb(124, 20, 41);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    z-index: 999;
+    font-size: 30px;
+    position: relative;
+    top: 350px;
+}
+.notable{
+    color: rgb(248, 200, 69);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    z-index: 999;
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+}
+.image-row{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+#m{
+    height: min-content;
+    background-image: url(../images/o_bg.png);
+    background-clip: content-box;
+    /* margin-bottom: 120px; */
+    background-repeat: repeat-y;
+}
+/* Main buttons */
+#b1, #b2, #b3, #b4{
+    height: 20%;
+    width: 20%;
+}
+
+/* #o_bg{
+    height: 100%;
+    width: 100%; 
+}*/
+
+#box1{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: -90px;
+    left: 130px;
+    align-content: center;
+    z-index: 99;
+}
+
+
+#omap{
+    position: relative;
+    height: 55%;
+    width: 55%;
+    top: 270px;
+    right: 10px;
+
+}
+
+footer{
+    background-image: url(../images/footer1.png);
+    text-decoration: rgb(228, 148, 28);
+    width: 100%;
+    padding-top: 300px;
+    text-align: center;
+    line-height: 200%;
+}
+
+
+h2, h1, p{
+    color:rgb(250, 212, 0);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+
+}
+
+input{
+    background-color: rgb(80, 10, 25);
+    color: rgb(240, 180, 28);
+    border-color: rgb(235, 21, 64);
+    text-decoration: rgb(240, 180, 28);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90%;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+}
+
+#nik{
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    font-size: 110%;
+}
