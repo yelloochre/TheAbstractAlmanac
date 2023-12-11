@@ -135,15 +135,7 @@ Logo Box w/ Shadow */
     font-size: 30px;
     position: relative;
     top: 350px;
-}
-.notable{
-    color: rgb(248, 200, 69);
-    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    z-index: 999;
-    font-size: 30px;
-    position: relative;
-    top: 0px;
+
 }
 .image-row{
     /* background-color: aquamarine; */
@@ -167,17 +159,32 @@ Logo Box w/ Shadow */
     color:rgb(236, 183, 9);
     font-family: UnderwoodChamp, Georgia, Times, 'Times New Roman', serif;
     font-weight: 1300;
-    font-size: 320%;
-    background-image: url(../images/about_titlebar.png);
+    font-size: 330%;
+    /* background-image: url(../images/about_titlebar.png); */
     background-clip: content-box;
-    background-size: 1%;
-    padding: 1%;
+    background-size: 0%;
     background-repeat: no-repeat;
     padding-right: 50%;
     position: relative;
-    left: 150px;
-    top: 10px;
+    left: 165px;
+    bottom: 144px;
     z-index: 99;
+}
+.bar2{
+    bottom: 300px;
+}
+
+.maintext{
+    color: rgb(85, 29, 37);
+    font-family: Perpetua, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    text-justify: auto;
+    font-weight: 200px;
+    z-index: 999;
+    font-size:30px;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
 }
 
 #m{
@@ -188,7 +195,6 @@ Logo Box w/ Shadow */
     /* margin-bottom: 120px; */
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 20%;
     bottom: 38px;
 
 
